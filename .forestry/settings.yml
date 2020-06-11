@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5e595360a39b3a001b305ea2/webhook/forestry
 sections:
+- type: heading
+  label: G&T Sidebar
+- type: jekyll-pages
+  label: GTbakJekyll
+  create: all
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Global Site Config

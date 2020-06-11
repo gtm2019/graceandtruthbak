@@ -9,7 +9,6 @@ sections:
 - type: jekyll-pages
   label: GTbakJekyll
   create: all
-  match: "**/*"
 - type: document
   path: _config.yml
   label: Global Site Config
